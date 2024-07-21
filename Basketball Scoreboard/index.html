@@ -1,0 +1,37 @@
+<!-- Just a simple Basketball Scoreboard. a project given to me by a friend on Scrimba -->
+<!-- made by me from scratch. WiLson da AVaTar⚔️⛩️
+click the +1, +2, +3 buttons to calculate the score -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link href="https://fonts.cdnfonts.com/css/digital-7-mono" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="scoreboard">
+        <div class="team">
+            <h3>HOME</h3>
+            <div class="score" id="first-screen">12</div>
+            <div class="buttons">
+                <button onclick="one()">+1</button>
+                <button onclick="two()">+2</button>
+                <button onclick="three()">+3</button>
+            </div>
+        </div>
+        <div class="team">
+            <h3>GUEST</h3>
+            <div id="second-screen" class="score">5</div>
+            <div class="buttons">
+                <button onclick="on()">+1</button>
+                <button onclick="tw()">+2</button>
+                <button onclick="thr()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/* @font-face {
+    font-family: 'Digital-7 Mono';
+    src: url('https://fonts.cdnfonts.com/s/64136/Digital7Mono-BWgpR.ttf') format('truetype');
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f5ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.scoreboard {
+    display: flex;
+    background-color: #0a2463;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.team h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.score {
+    background-color: #1e1e1e;
+    color: #ff0000;
+    font-size: 64px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: 'Digital-7 Mono', sans-serif;
+}
+
+.buttons button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Digital-7 Mono', sans-serif;
+}
+
+.buttons button:hover {
+    background-color: #444;
+}
